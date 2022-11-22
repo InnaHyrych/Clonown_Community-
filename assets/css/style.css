@@ -39,8 +39,7 @@ hr {
 #logo {
 
     float: left;
-    clear:both;
-    
+      
 
 }
 
@@ -68,6 +67,8 @@ hr {
 
     margin: 0 30px;
     border: #00130a solid 2px;
+    display: inline-flex;
+    flex-direction: row;
     
 }
 
@@ -87,7 +88,7 @@ hr {
 #menu {
 
     float: right;
-    clear: both;
+    
 }
 
 
