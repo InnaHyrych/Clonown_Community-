@@ -91,4 +91,15 @@ hr {
     
 }
 
+/*Header image*/
+
+#header-img {
+
+    background: url('../images/header1.jpg') no-repeat center center;
+    height: 500px;
+
+}
+
+
+
 
