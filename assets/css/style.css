@@ -43,6 +43,24 @@ hr {
 
 }
 
+/*Site navigation menu*/
+
+#nav-menu li {
+
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+
+#nav-menu a {
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
 /*Seach line*/
 
 #search {
