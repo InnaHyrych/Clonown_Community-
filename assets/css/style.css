@@ -23,23 +23,24 @@ body {
 h1, h2 {
 
     font-family: Playfair Display, sans-serif;
-    color: #483838;
-    margin: 0 30px;
-
+    color: #f7f8f7;
+    letter-spacing: 2px;
+    text-transform:capitalize;
+    
 }
 
 hr {
 
     border-top: 4px solid #42855b;
     width: 20rem;
-    margin: 5px 25px;
+    margin: 5px 0;
 
 }
 
 #logo {
 
     float: left;
-      
+    
 
 }
 
