@@ -18,6 +18,8 @@ body {
 
 /*Heading*/
 
+/*Name and logo*/
+
 h1, h2 {
 
     font-family: Playfair Display, sans-serif;
@@ -38,4 +40,30 @@ hr {
 
     float: left;
     
+
 }
+
+/*Seach line*/
+
+#search {
+
+    float: right;
+    margin: 0 30px;
+    border: #00130a solid 2px;
+    
+}
+
+.btn {
+
+    padding: 6px;
+    background-color: #42855b;
+
+}
+
+.btn:hover {
+
+    background-color: #90b77d;
+
+}
+
+
