@@ -25,7 +25,7 @@ h1, h2 {
     font-family: Playfair Display, sans-serif;
     color: #f7f8f7;
     letter-spacing: 2px;
-    text-transform:capitalize;
+    text-transform: capitalize;
     
 }
 
@@ -49,16 +49,16 @@ hr {
 #nav-menu li {
 
     list-style-type: none;
-    margin-right: 30px;
     display: inline-block;
-
+    margin-right: 1rem;
+    
 }
 
 #nav-menu a {
 
     text-decoration: none;
     color: inherit;
-
+    
 }
 
 
