@@ -106,6 +106,21 @@ hr {
 
 }
 
+/*Historical article*/
 
+#header-2 {
+
+    text-align: center;
+    margin: 2rem;
+
+}
+
+#history p {
+
+   text-align: center;
+   margin: 0 10%;
+   font-size: medium;
+   
+}
 
 
