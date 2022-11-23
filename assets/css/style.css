@@ -69,10 +69,12 @@ hr {
 
 #search {
 
-    margin: 0 30px;
+    margin-right: 1rem;
     border: #00130a solid 2px;
     display: inline-flex;
     flex-direction: row;
+    float: right;
+    
     
 }
 
