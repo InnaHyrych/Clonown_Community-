@@ -25,12 +25,12 @@ h1, h2 {
     font-family: Playfair Display, sans-serif;
     letter-spacing: 2px;
     text-transform: capitalize;
-    color: #0f0e0e;
+    color: whitesmoke ;
     text-shadow:
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff; 
+    -1px -1px 0 #0f0e0e,
+    1px -1px 0 #0f0e0e,
+    -1px 1px 0 #0f0e0e,
+    1px 1px 0 #0f0e0e; 
     
 }
 
@@ -44,8 +44,7 @@ hr {
 
 #logo {
 
-    float: left;
-    
+    float: left;    
 
 }
 
@@ -65,7 +64,6 @@ hr {
     color: inherit;
     
 }
-
 
 /*Seach line*/
 
@@ -115,6 +113,12 @@ hr {
 
 }
 
+#header-2 h2 {
+
+    text-shadow: none;
+    color: inherit;
+}
+
 #history p {
 
    text-align: center;
@@ -123,15 +127,17 @@ hr {
    
 }
 
+/*article images*/
+
 #row {
 
     display: inline-flex;
-    overflow: hidden;
+    overflow:visible;
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0.5%;
-    margin: 1rem;
+    margin: 5%;
            
 }
 
@@ -145,13 +151,16 @@ hr {
 
 #row img:hover {
 
-    transform: scale(1.2);
+    transform: scale(1.2); 
+    border: #90b77d solid 5px; 
+        
 }
 
 .bloc {
 
     width: 100%;
     margin: 0.5rem 0.1rem;
+   
 
 }
 
