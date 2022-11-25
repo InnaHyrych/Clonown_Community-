@@ -175,12 +175,19 @@ hr {
 
 }
 
-#news h2 {
+#life h2 {
 
     text-shadow: none;
     color: inherit;
     text-align: center;
     
+}
+
+#life {
+
+    display: inline-block;
+    position: relative;
+
 }
 
 
