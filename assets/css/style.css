@@ -161,6 +161,8 @@ hr {
     
 }
 
+/*makes photos biger*/
+
 #row img:hover {
 
     transform: scale(1.2); 
@@ -175,36 +177,63 @@ hr {
 
 }
 
+/*Second section*/
+
 #life h2 {
 
     text-shadow: none;
     color: inherit;
     text-align: center;
-    
+        
 }
 
 #life-photos {
 
     display: inline-flex;
-    flex-direction: row;
-    
-    
+    position: relative;
+    justify-content: space-evenly;
+    margin: 3%;     
+        
 }
 
 .images-life {
 
-    width: 30%;
-    
+    width: 30%; 
 
 }
 
 #life-photos img {
 
-    width: 100%;
-    height: auto;
-    margin: 3%;
-
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: auto;
+    margin-bottom: auto;        
+    
 }   
+
+h4 {
+
+    font-family: Playfair Display, sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 100%;
+    
+}
+
+#life-photos hr {
+
+    border-top: 2px solid #4e9769;
+    
+}
+
+.about {
+
+    text-align: justify;
+    margin: 3%;
+       
+}
 
 
 
