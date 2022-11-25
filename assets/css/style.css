@@ -183,12 +183,28 @@ hr {
     
 }
 
-#life {
+#life-photos {
 
-    display: inline-block;
-    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    
+    
+}
+
+.images-life {
+
+    width: 30%;
+    
 
 }
+
+#life-photos img {
+
+    width: 100%;
+    height: auto;
+    margin: 3%;
+
+}   
 
 
 
