@@ -234,3 +234,32 @@ h4 {
     margin: 3%;
 
 }
+
+/*Footer*/
+
+footer {
+
+    height: 100px;
+
+}
+
+.social-networks {
+
+    text-align: center;
+
+}
+
+.social-networks > li {
+
+    display: inline;
+
+}
+
+.social-networks i {
+
+    font-size: 160%;
+    margin: auto auto;
+    padding: 5%;
+    color: #01361d;
+    
+} 
