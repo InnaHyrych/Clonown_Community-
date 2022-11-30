@@ -121,14 +121,9 @@ hr {
 
     text-align: center;
     margin: 2rem;
-
-}
-
-#header-2 h2 {
-
     text-shadow: none;
     color: inherit;
-    
+
 }
 
 #history p {
@@ -327,7 +322,7 @@ iframe {
 
 }
 
-#signup > hr {
+#signup hr {
 
     border: none;
 
@@ -336,6 +331,13 @@ iframe {
 #signup .btn {
 
     float: right;
+
+}
+
+#age > input {
+
+    margin-left: 5%;
+
 }
 
 
