@@ -10,8 +10,9 @@
 body {
 
     font-family: Loto, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #00130a;
+    font-size: medium;
 
 }
 
@@ -25,7 +26,7 @@ h1, h2 {
     letter-spacing: 2px;
     text-transform: capitalize;
         
-    /*make white color with black border for main header for contrast with background*/
+    /*make white color with black border for main header to make contrast with background*/
 
     color: whitesmoke;   
     text-shadow:
@@ -48,6 +49,8 @@ h2 {
 
 }
 
+/*Create grean line in header*/
+
 hr {
 
     border-top: 4px solid #42855b;
@@ -58,7 +61,8 @@ hr {
 
 #logo {
 
-    float: left;    
+    float: left; 
+    margin-left: 4%;    
 
 }
 
@@ -84,11 +88,11 @@ hr {
 #search {
 
     margin-right: 1rem;
+    margin-top: 5%;
     border: #00130a solid 2px;
     display: inline-flex;
     flex-direction: row;
-    float: right;
-    
+    float: right;    
     
 }
 
@@ -108,15 +112,18 @@ hr {
 #menu {
 
     float: right;
+    margin: 1%;
     
-}
+} 
+     
+
 
 /*Header image*/
 
 #header-img {
 
     background: url('../images/header1.jpg') no-repeat center center;
-    height: 500px;
+    height: 500px;  
 
 }
 
@@ -240,13 +247,17 @@ h4 {
 
 footer {
 
-    height: 100px;
+    /*Radial-gradient makes backgroun color more smoothly but stil highlights links*/
+
+    background: radial-gradient(circle at 10% 20%, rgb(58, 179, 116) 0%, rgb(224, 233, 223) 100.2%);
+    height: fit-content;    
 
 }
 
 .social-networks {
 
     text-align: center;
+    margin-bottom: 2%;
 
 }
 
@@ -256,14 +267,40 @@ footer {
 
 }
 
+/*Style ikons for social-media and contacts links*/
+
 .social-networks i {
 
+    border-radius: 50%; 
+    border: #000503 solid 1px;
     font-size: 160%;
-    margin: auto auto;
-    padding: 5%;
+    margin: 3% 5% 0;       
     color: #01361d;
+    padding: 1%;
     
 } 
+
+#contacts-link {
+
+    text-align: center;
+    margin: 0 40%;
+}
+
+#contacts-link i {
+
+    font-size: 100%;
+    margin: 3% 5% 0;       
+    color: #000503;   
+
+}
+
+#contacts-link a {
+
+    font-size: 160%;         
+    color: #000503;
+    text-decoration: none;    
+
+}
 
 /*contacts page*/
 
