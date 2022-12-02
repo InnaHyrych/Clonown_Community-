@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Playfair+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif+Georgian&family=Playfair+Display&display=swap');
 * {
 
     margin: 0;
@@ -10,7 +9,7 @@
 
 body {
 
-    font-family: Mukta, sans-serif;
+    font-family: Loto, sans-serif;
     font-weight: 300;
     color: #00130a;
 
@@ -25,9 +24,8 @@ h1, h2 {
     font-family: Playfair Display, sans-serif;
     letter-spacing: 2px;
     text-transform: capitalize;
-    font-size: 300%;
-    
-    /*make white color with black border for main header */
+        
+    /*make white color with black border for main header for contrast with background*/
 
     color: whitesmoke;   
     text-shadow:
@@ -35,6 +33,12 @@ h1, h2 {
     1px -1px 0 #0f0e0e,
     -1px 1px 0 #0f0e0e,
     1px 1px 0 #0f0e0e; 
+    
+}
+
+h1 {
+
+    font-size: 300%;
     
 }
 
