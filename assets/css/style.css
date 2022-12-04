@@ -198,6 +198,7 @@ hr {
 #life-photos {
 
     display: inline-flex;
+    flex-direction: column;
     position: relative;
     justify-content: space-evenly;
     margin: 3%;     
@@ -206,18 +207,16 @@ hr {
 
 .images-life {
 
-    width: 30%; 
+    display: inline-flex;
+    flex-direction: row;
+    margin: 2%;
 
 }
 
 #life-photos img {
 
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: auto;
-    margin-bottom: auto;        
+    width: 20%;
+            
     
 }   
 
