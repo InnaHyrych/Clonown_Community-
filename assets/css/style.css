@@ -195,6 +195,8 @@ hr {
         
 }
 
+/*Place photo and content in one line*/
+
 #life-photos {
 
     display: inline-flex;
@@ -215,8 +217,7 @@ hr {
 
 #life-photos img {
 
-    width: 20%;
-            
+    width: 20%;           
     
 }   
 
@@ -379,6 +380,35 @@ iframe {
 #age > input {
 
     margin-left: 5%;
+
+}
+
+/*Gallery page*/
+
+#gallery {
+    
+    margin: 1rem 0;
+    clear: both;
+    column-count: 4;
+    line-height: 3;    
+    column-gap: 1;    
+
+}
+
+#gallery h2 {
+    
+    text-shadow: none;
+    color: inherit;
+    text-align: center;
+    margin-bottom: 3%;
+    float: right;
+    clear: both;
+    
+}
+
+#gallery img {
+
+    width: 100%;
 
 }
 
