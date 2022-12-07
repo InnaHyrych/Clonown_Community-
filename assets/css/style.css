@@ -20,6 +20,7 @@ body {
 
 /*Name and logo*/
 
+
 h1, h2 {
 
     font-family: Playfair Display, sans-serif;
@@ -39,7 +40,7 @@ h1, h2 {
 
 h1 {
 
-    font-size: 300%;
+    font-size: 400%;
 
 }
 
@@ -79,7 +80,13 @@ hr {
 #nav-menu a {
 
     text-decoration: none;
-    color: inherit;
+    letter-spacing: 2px;
+    color: whitesmoke;   
+    text-shadow:
+    -1px -1px 0 #0f0e0e,
+    1px -1px 0 #0f0e0e,
+    -1px 1px 0 #0f0e0e,
+    1px 1px 0 #0f0e0e;
     
 }
 
@@ -98,8 +105,8 @@ hr {
 
 .btn {
 
-    padding: 6px;
-    background-color: #42855b;
+    padding: 8px;
+    background-color: #54926b;
 
 }
 
@@ -114,16 +121,15 @@ hr {
     float: right;
     margin: 1%;
     
-} 
-     
-
+}    
 
 /*Header image*/
 
-#header-img {
+header {
 
     background: url('../images/header1.jpg') no-repeat center center;
-    height: 500px;  
+    height: 500px;
+           
 
 }
 
@@ -273,7 +279,7 @@ footer {
 
     border-radius: 50%; 
     border: #000503 solid 1px;
-    font-size: 160%;
+    font-size: 130%;
     margin: 3% 5% 0;       
     color: #01361d;
     padding: 1%;
@@ -288,7 +294,7 @@ footer {
 
 #contacts-link i {
 
-    font-size: 100%;
+    font-size: 70%;
     margin: 3% 5% 0;       
     color: #000503;   
 
@@ -319,6 +325,8 @@ iframe {
 
 }
 
+/*Place content in the middle*/
+
 #contacts {
 
     float: auto auto;
@@ -330,7 +338,7 @@ iframe {
     text-shadow: none;
     color: inherit;
     text-align: center;
-    margin-bottom: 3%;
+    margin: 3% 0;
 
 }
 
@@ -341,22 +349,18 @@ iframe {
 
 }
 
-/*signup page*/
+/*Signup page*/
 
-#header-signup {
 
-    background: url('../images/header1.jpg') center center no-repeat;
-    width: 100%;
-    height: 400px;
-
-}
+/*Place content in the middle*/
 
 #signup {
 
     display: inline-block;
     position: relative;
     text-align: left;
-    margin: 3% 35% ;
+    margin: 3% 35%;
+
 }
 
 .frame {
@@ -368,6 +372,7 @@ iframe {
 #signup hr {
 
     border: none;
+    margin: 2% 0;
 
 }
 
@@ -379,13 +384,13 @@ iframe {
 
 #age > input {
 
-    margin-left: 5%;
+    margin-left: 4%;
 
 }
 
 /*Gallery page*/
 
-#gallery {
+#gallery-img {
     
     margin: 1rem 0;
     clear: both;
@@ -401,9 +406,9 @@ iframe {
     color: inherit;
     text-align: center;
     margin-bottom: 3%;
-    float: right;
-    clear: both;
-    
+    margin-top: 3%;
+    font-size: 300%;
+   
 }
 
 #gallery img {
@@ -411,5 +416,67 @@ iframe {
     width: 100%;
 
 }
+
+/* Media queries */
+
+/* For small screen sizes below 600px width */
+
+@media screen and (max-width: 600px) {
+
+    #menu {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin: 10% 0;
+    }
+
+    #nav-menu a {
+        letter-spacing: 0.5px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    .images-life {
+        display: inline-flex;
+        flex-direction: column;
+        margin: 2%;
+    }
+
+    #life-photos img {
+        width: 50%;
+        display: inline-block;
+        position: relative;
+        margin: auto;
+    }
+
+    .social-networks i {  
+        font-size: 70%;               
+        color: #01361d;              
+    } 
+
+    #contacts-link i {
+        font-size: 70%;
+        margin: 3% 3% 0;       
+        color: #000503;
+    }
+    #contacts-link a {
+        font-size: 100%;         
+        color: #000503;
+        text-decoration: none;    
+    }
+    #contacts-link {
+        text-align: center;
+        margin: 0 30%;
+    }
+   
+}
+
+
 
 
