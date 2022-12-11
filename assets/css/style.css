@@ -348,11 +348,17 @@ iframe {
 
 }
 
-#contacts .btn {
+#textarea {
 
-    margin: 0 51%;    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 
-}
+} 
+
 
 
 /*Signup page*/
@@ -538,6 +544,15 @@ iframe {
         width: 70%;
         margin: 5% 15%;
     }
+
+    #contacts .frame {
+
+        margin: 2% auto;   
+            
+    }
+    
+
+
 }
 
 
