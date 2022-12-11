@@ -310,12 +310,7 @@ footer {
 
 /*contacts page*/
 
-#header-contacts {
 
-    background: url('../images/header1.jpg') center center no-repeat;
-    height: 400px;
-
-}
 
 iframe {
 
@@ -332,6 +327,8 @@ iframe {
     float: auto auto;
         
 }
+
+
 
 #contacts > h2 {
 
