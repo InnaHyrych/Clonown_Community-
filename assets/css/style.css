@@ -351,7 +351,6 @@ iframe {
 
 /*Signup page*/
 
-
 /*Place content in the middle*/
 
 #signup {
@@ -360,6 +359,15 @@ iframe {
     position: relative;
     text-align: left;
     margin: 3% 35%;
+
+}
+
+#signup > h2 {
+
+    text-shadow: none;
+    color: inherit;
+    text-align: center;
+    margin-bottom: 5%;
 
 }
 
@@ -423,6 +431,8 @@ iframe {
 
 @media screen and (max-width: 600px) {
 
+    /*Style for small screens for navigation menu and header*/
+
     #menu {
         display: inline-block;
         position: relative;
@@ -442,6 +452,23 @@ iframe {
         font-size: 100%;
     }
 
+     /*Style for small screens for photo after article*/
+
+     #row {
+
+        display: inline-flex;
+        flex-direction: column;
+        overflow:visible;
+        clear: both;
+        line-height: 0;
+        column-count: 1;
+        column-gap: 0.5%;
+        margin: 5%;
+               
+    }
+
+    /*Chage position for content in section about live */
+
     .images-life {
         display: inline-flex;
         flex-direction: column;
@@ -454,6 +481,8 @@ iframe {
         position: relative;
         margin: auto;
     }
+
+    /*Footer for small screens*/
 
     .social-networks i {  
         font-size: 70%;               
@@ -474,7 +503,34 @@ iframe {
         text-align: center;
         margin: 0 30%;
     }
+
+    /*Gallery page for small screens*/
+
+    #gallery-img {
+    column-count: 2;
+    }
+
+    #gallery h2 {
+        font-size: 100%;
+    }
+
+    /*Signup page for small screens*/
+
+    #signup {
+       
+        margin: 3% 3%;
    
+    }
+
+    /*Contacts page for small screens*/
+
+    iframe {
+
+        /*Place map in the middel of small screen*/
+
+        width: 70%;
+        margin: 5% 15%;
+    }
 }
 
 

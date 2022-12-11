@@ -1,108 +1,155 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# # **# Clonown Community **
 
-Welcome InnaHyrych,
+ 
+A website about the community area of Clonown an area on outskirts of Athlone Town, in the County of Roscommon, located in centre of Ireland. Our goals are to provide information and news about: 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Amenities 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Facilities 
 
-## Gitpod Reminders
+Social events 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+History  
 
-`python3 -m http.server`
+Local Businesses 
 
-A blue button should appear to click: _Make Public_,
+Local Crafts 
 
-Another blue button should appear to click: _Open Browser_.
+Community Alerts 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Connecting the local community and visitors 
 
-A blue button should appear to click: _Make Public_,
+ 
 
-Another blue button should appear to click: _Open Browser_.
+ ![demo pc and mobile](assets/images/readme-images/website-framed-finished.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ 
 
-To log into the Heroku toolbelt CLI:
+## **Features** 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**Navigation Menu**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Featured on all pages within website, as _self hyperlinks to the Home screen, Gallery, Sign Up and Contact pages for consistency and clear navigating throughout the Website. 
 
-------
+This menu allows users to move between pages seamlessly without the need for using the browser controls, e.g., back button, or without opening new tabs when a hyperlink is clicked. 
 
-## Release History
+The Navigation menu contains a search field for easy assistance in searching the content on the website. (This functionality is still under development) 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Nav bar example](assets/images/readme-images/Navbar.jpg)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+**Landing Page**
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Header - the website header contains the Navigation Menu as described above section. The header also contains the Website Name, Slogan and Background image which was taken on some farming land within the Clonown area. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Header example](assets/images/readme-images/header.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+History - Under the Navigation Menu and Header image is a section that contains some historic information about Clonown on how the area got its name. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![History](assets/images/readme-images/history.jpg)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Featured Images - Next is a section containing some featured images taken within the Clonown area, the images will enlarge when the mouse is moved over any of the images. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Featured Images](assets/images/readme-images/featured-img.jpg)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Clonown Alerts & News – A section to display community alerts, news articles or events such as Christmas Markets, sporting events, School or Church announcements.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![News and Alerts](assets/images/readme-images/NewsAlerts.jpg)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Footer - The footer contains links to related social media accounts on the following platforms: 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Facebook 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Twitter 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Wikipedia 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Instagram 
 
-------
+It also contains a _self hyperlink to the contact page so that users can quickly see how they can get in touch without needing to scroll back up to the menu on the top. 
 
-## FAQ about the uptime script
+![Footer](assets/images/readme-images/footer.jpg)
 
-**Why have you added this script?**
+## Gallery 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The gallery will contain some images of historic buildings, nature, flooding and amenities. 
 
-**How will this affect me?**
+The images are intended to be memories for past and present residents and/or motivation, to encourage visitors to come to the area 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Gallery](assets/images/readme-images/gallery.jpg)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Sign Up 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+This page will allow the user to sign up to be included in our newsletters and alerts in order to stay up to date with community events and news such as possible illegal dumping, flooding from the nearby River Shannon etc. 
 
-**So….?**
+## Contact 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+A contact page that helps the user of the website to get in touch with the administrator, this maybe regarding get their event, business offerings or alert out to other community residents. 
 
-**Can I opt out?**
+## Testing 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+**CSS Style Testing**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+I tested my website appearance and functionality across multiple devices and screen sizes, below are some examples of the testing performed and the results. 
 
-**Anything more?**
+PC Monitor – Full HD 1920px x 1080px 
+![Resolution 1080p](assets/images/readme-images/resolution1080p.jpg)
+![1080p website view](assets/images/readme-images/website-1080p.jpg)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Windows 10 Laptop 1366px x 768px 
+![768p windows](assets/images/readme-images/website-768p.jpg)
+Android OnePlus 6.3” screen  
+![Android Mobile view](assets/images/readme-images/Website-Android-screenshot.jpg)
+ 
+Lenovo Tablet 10.1” screen 
+![Tablet view](assets/images/readme-images/website-tablet-view.jpg)
 
----
+**Performance Testing** 
 
-Happy coding!
+I conducted tests on how quickly my website loaded using different connections such as mobile data and home fibre via Wi-Fi in most cases the website always loaded within 2-5 seconds from mobile data and under 2 seconds when using WIFI from my home fibre connection. 
+
+![mobile](assets/images/readme-images/performance-mobile.jpg)
+![wifi](assets/images/readme-images/performance-wifi.jpg)
+
+**Browser Compatibility** 
+
+The website was tested across the following browsers for any bugs: 
+
+Chrome 
+
+Firefox 
+
+Microsoft Edge 
+
+![Alt text](assets/images/readme-images/testing-table-results.jpg)
+
+
+Testing document: 
+
+https://1drv.ms/x/s!AvJgYZrLWaJmexwwAqsLAe21lZ0?e=Fl39f5 
+
+ 
+
+**Unfixed Bugs**
+
+Display issue on the Home screen while using Firefox from Windows PC (1080p) or Laptop (768p), when viewing the News & Alerts section the image size is not displayed correctly. 
+
+![Bug](assets/images/readme-images/bug-firefox-news1.jpg)
+ 
+
+## Credits
+
+**Content**: 
+
+The text for the Home page was taken from [Westmeath Independant ](https://www.westmeathindependent.ie/2022/03/28/street-wise-athlone-clonown/)
+
+The icons in the footer were taken from [Font Awesome ](https://fontawesome.com/) 
+
+[Stack Overflow](https://stackoverflow.com/) was used for help with CSS Styling. 
+
+Fonts were taken from [Google Fonts](https://fonts.google.com/). 
+
+**Media** 
+
+Any images used within this website were taken by the site developer and are considered the property of Clonown Community website. 
+
+ 
