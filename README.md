@@ -3,23 +3,22 @@
  
 A website about the community area of Clonown an area on outskirts of Athlone Town, in the County of Roscommon, located in centre of Ireland. Our goals are to provide information and news about: 
 
-Amenities 
+- Amenities 
 
-Facilities 
+- Facilities 
 
-Social events 
+- Social events 
 
-History  
+- History  
 
-Local Businesses 
+- Local Businesses 
 
-Local Crafts 
+- Local Crafts 
 
-Community Alerts 
+- Community Alerts 
 
-Connecting the local community and visitors 
+- Connecting the local community and visitors 
 
- 
 
  ![demo pc and mobile](assets/images/readme-images/website-framed-finished.png)
 
@@ -57,13 +56,13 @@ Clonown Alerts & News – A section to display community alerts, news articles o
 
 Footer - The footer contains links to related social media accounts on the following platforms: 
 
-Facebook 
+- Facebook 
 
-Twitter 
+- Twitter 
 
-Wikipedia 
+- Wikipedia 
 
-Instagram 
+- Instagram 
 
 It also contains a _self hyperlink to the contact page so that users can quickly see how they can get in touch without needing to scroll back up to the menu on the top. 
 
@@ -91,16 +90,16 @@ A contact page that helps the user of the website to get in touch with the admin
 
 I tested my website appearance and functionality across multiple devices and screen sizes, below are some examples of the testing performed and the results. 
 
-PC Monitor – Full HD 1920px x 1080px 
+- PC Monitor – Full HD 1920px x 1080px 
 ![Resolution 1080p](assets/images/readme-images/resolution1080p.jpg)
 ![1080p website view](assets/images/readme-images/website-1080p.jpg)
 
-Windows 10 Laptop 1366px x 768px 
+- Windows 10 Laptop 1366px x 768px 
 ![768p windows](assets/images/readme-images/website-768p.jpg)
-Android OnePlus 6.3” screen  
+- Android OnePlus 6.3” screen  
 ![Android Mobile view](assets/images/readme-images/Website-Android-screenshot.jpg)
  
-Lenovo Tablet 10.1” screen 
+- Lenovo Tablet 10.1” screen 
 ![Tablet view](assets/images/readme-images/website-tablet-view.jpg)
 
 **Performance Testing** 
@@ -114,11 +113,11 @@ I conducted tests on how quickly my website loaded using different connections s
 
 The website was tested across the following browsers for any bugs: 
 
-Chrome 
+- Chrome 
 
-Firefox 
+- Firefox 
 
-Microsoft Edge 
+- Microsoft Edge 
 
 ![Alt text](assets/images/readme-images/testing-table-results.jpg)
 
