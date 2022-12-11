@@ -40,19 +40,11 @@ The Navigation menu contains a search field for easy assistance in searching the
 
 Header - the website header contains the Navigation Menu as described above section. The header also contains the Website Name, Slogan and Background image which was taken on some farming land within the Clonown area. 
 
-![Header example](assets/images/readme-images/header.jpg)
-
 History - Under the Navigation Menu and Header image is a section that contains some historic information about Clonown on how the area got its name. 
-
-![History](assets/images/readme-images/history.jpg)
 
 Featured Images - Next is a section containing some featured images taken within the Clonown area, the images will enlarge when the mouse is moved over any of the images. 
 
-![Featured Images](assets/images/readme-images/featured-img.jpg)
-
-Clonown Alerts & News – A section to display community alerts, news articles or events such as Christmas Markets, sporting events, School or Church announcements.
-
-![News and Alerts](assets/images/readme-images/NewsAlerts.jpg)
+Clonown Alerts & News – A section to display community alerts, news articles or events such as Christmas Markets, sporting events, School or Church announcements. 
 
 Footer - The footer contains links to related social media accounts on the following platforms: 
 
@@ -98,7 +90,7 @@ I tested my website appearance and functionality across multiple devices and scr
 ![768p windows](assets/images/readme-images/website-768p.jpg)
 - Android OnePlus 6.3” screen  
 ![Android Mobile view](assets/images/readme-images/Website-Android-screenshot.jpg)
- 
+
 - Lenovo Tablet 10.1” screen 
 ![Tablet view](assets/images/readme-images/website-tablet-view.jpg)
 
@@ -115,12 +107,9 @@ The website was tested across the following browsers for any bugs:
 
 - Chrome 
 
-- Firefox 
+ 
 
-- Microsoft Edge 
-
-![Alt text](assets/images/readme-images/testing-table-results.jpg)
-
+ 
 
 Testing document: 
 
@@ -131,9 +120,8 @@ https://1drv.ms/x/s!AvJgYZrLWaJmexwwAqsLAe21lZ0?e=Fl39f5
 **Unfixed Bugs**
 
 Display issue on the Home screen while using Firefox from Windows PC (1080p) or Laptop (768p), when viewing the News & Alerts section the image size is not displayed correctly. 
-
-![Bug](assets/images/readme-images/bug-firefox-news1.jpg)
  
+
 
 ## Credits
 
