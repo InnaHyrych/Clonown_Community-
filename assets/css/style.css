@@ -374,6 +374,7 @@ iframe {
 .frame {
 
     border: #053b22 solid 0.5px;
+    float: right;
 
 }
 
