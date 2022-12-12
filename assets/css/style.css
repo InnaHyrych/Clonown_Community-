@@ -329,16 +329,21 @@ iframe {
 
 /*Place content in the middle*/
 
-#contacts .frame {
 
-    margin: 1% 45%;   
-        
+#contacts {
+
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin: 3% 35%;
+
 }
+ 
+#contacts hr {
 
-#contacts p {
+    border: none;
+    margin: 2% 0;
 
-    text-align: center;
-    
 }
 
 #contacts > h2 {
@@ -353,20 +358,23 @@ iframe {
 #contacts > h4 {
 
     text-align: center;
-    margin: 1%;
-
+    margin: 3%;
 }
 
-#textarea {
+#contacts .btn {
 
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
+    float: right;
+    clear: both;
+    margin: 5% auto;
+}
 
-} 
+#contacts p {
+
+    margin-bottom: 5%;
+    
+}
+
+
 
 
 
@@ -379,7 +387,7 @@ iframe {
     display: inline-block;
     position: relative;
     text-align: left;
-    margin: 3% 35%;
+    margin: 3% 33%;
 
 }
 
