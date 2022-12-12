@@ -121,9 +121,9 @@ https://1drv.ms/x/s!AvJgYZrLWaJmexwwAqsLAe21lZ0?e=Fl39f5
 
 **Validator Testing**
 
-HTML
+- HTML
 No errors were returned when passing through the official W3C validator
-CSS
+- CSS
 No errors were found when passing through the official W3C CSS validator
 Warning about "Imported style sheets are not checked in direct input and file upload modes" 
 
