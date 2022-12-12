@@ -485,7 +485,6 @@ iframe {
      /*Style for small screens for photo after article*/
 
      #row {
-
         display: inline-flex;
         flex-direction: column;
         overflow:visible;
@@ -493,11 +492,10 @@ iframe {
         line-height: 0;
         column-count: 1;
         column-gap: 0.5%;
-        margin: 5%;
-               
+        margin: 5%;               
     }
 
-    /*Chage position for content in section about live */
+    /*Chage position for content in section about Alerts and News */
 
     .images-life {
         display: inline-flex;
@@ -524,11 +522,13 @@ iframe {
         margin: 3% 3% 0;       
         color: #000503;
     }
+
     #contacts-link a {
         font-size: 100%;         
         color: #000503;
         text-decoration: none;    
     }
+
     #contacts-link {
         text-align: center;
         margin: 0 30%;
@@ -546,29 +546,27 @@ iframe {
 
     /*Signup page for small screens*/
 
-    #signup {
-       
+    #signup {       
         margin: 3% 3%;
-   
     }
 
-    /*Contacts page for small screens*/
+    /*Contact page for small screens*/
 
     iframe {
 
         /*Place map in the middel of small screen*/
 
-        width: 70%;
-        margin: 5% 15%;
+        width: 98%;
+        margin: 5% 1%;
     }
 
     #contacts .frame {
-
-        margin: 2% auto;   
-            
+        margin: 2% auto;             
     }
-    
 
+    #contacts {
+        margin: 3% 2%;    
+    }
 
 }
 

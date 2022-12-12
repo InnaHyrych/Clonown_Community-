@@ -72,9 +72,13 @@ The images are intended to be memories for past and present residents and/or mot
 
 This page will allow the user to sign up to be included in our newsletters and alerts in order to stay up to date with community events and news such as possible illegal dumping, flooding from the nearby River Shannon etc. 
 
+![Sign Up](assets/images/readme-images/sign-up.jpg)
+
 ## Contact 
 
 A contact page that helps the user of the website to get in touch with the administrator, this maybe regarding get their event, business offerings or alert out to other community residents. 
+
+![Contact](assets/images/readme-images/contact.jpg)
 
 ## Testing 
 
