@@ -93,9 +93,9 @@ hr {
 
 /*Highlight an item in the list*/
 
-#nav-menu a:hover {
+#nav-menu li:hover {
     
-    font-size: x-large;  
+    transform: scale(1.2);  
     
 }
 
