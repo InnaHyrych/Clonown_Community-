@@ -91,6 +91,14 @@ hr {
     
 }
 
+/*Highlight an item in the list*/
+
+#nav-menu a:hover {
+    
+    font-size: x-large;  
+    
+}
+
 /*Seach line*/
 
 #search {
