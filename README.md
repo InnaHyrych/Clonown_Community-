@@ -231,6 +231,7 @@ Warning about "Imported style sheets are not checked in direct input and file up
 **Unfixed Bugs**
 
 Display issue on the Home screen while using Firefox from Windows PC (1080p) or Laptop (768p), when viewing the News & Alerts section the image size is not displayed correctly. 
+
 ![Bug](assets/images/readme-images/bug-firefox-news1.jpg)
 
 ## Credits
