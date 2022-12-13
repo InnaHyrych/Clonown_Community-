@@ -141,9 +141,7 @@ The icons on this footer are there in order help the user interact more with the
 
 ## Gallery 
 
-The gallery will contain some images of historic buildings, nature, flooding and amenities. 
-
-The images are intended to be memories for past and present residents and/or motivation, to encourage visitors to come to the area.
+The gallery will contain some images of historic buildings, nature, flooding and amenities. The images are intended to be memories for past and present residents and/or motivation, to encourage visitors to come to the area. In regards to the styling I used 4 columns in large screens and on smaller screens 600px or below it only has 2 columns. The images are styled to have a `column-gap` an and `line-height` because I didnt want the photos to look merged. 
 
 #gallery-img {
     
@@ -159,19 +157,27 @@ The images are intended to be memories for past and present residents and/or mot
 
 ## Sign Up 
 
-This page will allow the user to sign up to be included in our newsletters and alerts in order to stay up to date with community events and news such as possible illegal dumping, flooding from the nearby River Shannon etc. 
+This page will allow the user to sign up to be included in our newsletters and alerts in order to stay up to date with community events and news such as possible illegal dumping, flooding from the nearby River Shannon etc. For the sign up form I used radio buttons and checkboxes to capture information from my applicant. 
 
 ![Sign Up](assets/images/readme-images/sign-up.jpg)
 
 ## Contact 
 
-A contact page that helps the user of the website to get in touch with the administrator, this maybe regarding get their event, business offerings or alert out to other community residents. 
+A contact page that helps the user of the website to get in touch with the administrator, this maybe regarding get their event, business offerings or alert out to other community residents.
+For the contact page I made the mobile number a hyperlink so that the user could with a single click enter our number into their mobile phone dialler. 
 
 <!--Mobile phone with anchor element-->
 
-            <h4>
-                <a href="tel:+380901111111"> <i class="fas fa-phone-volume"></i> (090)1111111</a>
-            </h4>
+`<h4><a href="tel:+380901111111"> <i class="fas fa-phone-volume"></i> (090)1111111</a></h4>`
+
+On the contact page I also added an embeded map from Google Maps, where the height and width of the map is defined in the CSS stylesheet.
+
+`#map {
+        /*Place map in the middel of small screen*/
+        width: 98%;
+        height: 350px;
+        margin: 5% 1%;
+    }`
 
 ![Contact](assets/images/readme-images/contact.jpg)
 
@@ -205,10 +211,8 @@ I conducted tests on how quickly my website loaded using different connections s
 The website was tested across the following browsers for any bugs: 
 
 - Chrome 
-
- 
-
- 
+- Firefox 
+- Edge 
 
 Testing document: 
 
@@ -227,6 +231,7 @@ Warning about "Imported style sheets are not checked in direct input and file up
 **Unfixed Bugs**
 
 Display issue on the Home screen while using Firefox from Windows PC (1080p) or Laptop (768p), when viewing the News & Alerts section the image size is not displayed correctly. 
+![Bug](assets/images/readme-images/bug-firefox-news1.jpg)
 
 ## Credits
 
