@@ -21,7 +21,6 @@ body {
 
 /*Name and logo*/
 
-
 h1, h2 {
 
     font-family: 'Playfair Display', sans-serif;
@@ -137,8 +136,7 @@ hr {
 header {
 
     background: url('../images/header1.jpg') no-repeat center center;
-    height: 500px;
-           
+    height: 500px;           
 
 }
 
@@ -184,7 +182,7 @@ header {
     
 }
 
-/*makes photos biger*/
+/*Makes photos biger*/
 
 #row img:hover {
 
@@ -329,7 +327,6 @@ iframe {
 
 /*Place content in the middle*/
 
-
 #contacts {
 
     display: inline-block;
@@ -359,6 +356,7 @@ iframe {
 
     text-align: center;
     margin: 3%;
+
 }
 
 #contacts .btn {
@@ -366,6 +364,7 @@ iframe {
     float: right;
     clear: both;
     margin: 5% auto;
+
 }
 
 #contacts p {
@@ -374,9 +373,11 @@ iframe {
     
 }
 
+textarea {
 
-
-
+    width: 100%;
+    
+}
 
 /*Signup page*/
 
