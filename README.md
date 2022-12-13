@@ -38,13 +38,21 @@ The Navigation menu contains a search field for easy assistance in searching the
 
 **Landing Page**
 
-Header - the website header contains the Navigation Menu as described above section. The header also contains the Website Name, Slogan and Background image which was taken on some farming land within the Clonown area. 
+Header - the website header contains the Navigation Menu as described above section. The header also contains the Website Name, Slogan and Background image which was taken on some farming land within the Clonown area.
+
+![Header](assets/images/readme-images/header.jpg)
 
 History - Under the Navigation Menu and Header image is a section that contains some historic information about Clonown on how the area got its name. 
 
-Featured Images - Next is a section containing some featured images taken within the Clonown area, the images will enlarge when the mouse is moved over any of the images. 
+![History](assets/images/readme-images/history.jpg)
 
-Clonown Alerts & News – A section to display community alerts, news articles or events such as Christmas Markets, sporting events, School or Church announcements. 
+Featured Images - Next is a section containing some featured images taken within the Clonown area, the images will enlarge when the mouse is moved over any of the images.
+
+![Featured Images](assets/images/readme-images/featured-img.jpg)
+
+Clonown Alerts & News – A section to display community alerts, news articles or events such as Christmas Markets, sporting events, School or Church announcements.
+
+![Clonown News & Alerts](assets/images/readme-images/NewsAlerts.jpg)
 
 Footer - The footer contains links to related social media accounts on the following platforms: 
 
