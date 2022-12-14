@@ -234,6 +234,15 @@ Display issue on the Home screen while using Firefox from Windows PC (1080p) or 
 
 ![Bug](assets/images/readme-images/bug-firefox-news1.jpg)
 
+**Deployment**
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here -  https://innahyrych.github.io/Clonown_Community-/
+
 ## Credits
 
 **Content**: 
